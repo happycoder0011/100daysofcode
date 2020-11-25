@@ -12,3 +12,28 @@
     --mood-color-5 : #ea3d36;
     
 }
+
+body {
+    font-family: 'Muli';
+    margin: 40px 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h4 {
+    font-weight: 100;
+    margin: 5px 0 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+}
