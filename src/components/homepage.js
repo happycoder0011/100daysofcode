@@ -1,10 +1,32 @@
 import React from 'react'
-
-export default function Homepage() {
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Timeline from "../projects/Timeline/Timeline";
+export default function Homepage({project}) {
   
    return(
      <>
-     this is a homepage
+     <Router>     
+       <div>
+       <button>
+        <Link to="/timeline">{project}</Link>
+       </button>
+     </div>
+
+     <Switch>
+       <Route path="/">
+         <Homepage/>
+       </Route>
+       <Route path='/timeline'>
+         <Timeline/>
+       </Route>
+     </Switch>
+     </Router>
+
      </>
    )
     
