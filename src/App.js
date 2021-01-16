@@ -10,14 +10,14 @@ function App() {
   return (
     <div className="App">
     <Review/>
-    {/*
+   
     <Birthday/>
     <Homepage/>
     <Timeline/>
      <Texteffect/>
     <Mood/>
     <Tour_Project/>
-     */}
+    
     </div>
   );
 }

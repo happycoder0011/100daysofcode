@@ -1,4 +1,4 @@
-div {
+.texteffect {
     background: #222;
     min-height: 100vh;
     display: grid;
@@ -7,7 +7,7 @@ div {
     font-family: sans-serif;
   }
   
-  .glitch {
+.glitch {
     font-size: 8rem;
     font-weight: 700;
     text-transform: uppercase;
